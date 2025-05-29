@@ -1,7 +1,7 @@
 print("Anecdotal evidence suggests that in a game of Rock_Paper_Scissors players familiar with each other will tie"
       " 75-80% of the time due to the limited number of outcomes.\n"
       "I suggest Rock_Paper_Scissors_Lizard_Spock. (Invented by SHELDON COOPER)\nIt's very simple\nRULE:\n\t"
-      "# SCISSORS cutS PAPER\n\t# PAPER covers ROCK\n\t# ROCK crushes LIZARD\n\t# LIZARD poisons SPOCK\n\t"
+      "# SCISSORS cuts PAPER\n\t# PAPER covers ROCK\n\t# ROCK crushes LIZARD\n\t# LIZARD poisons SPOCK\n\t"
       "# SPOCK smashes SCISSORS\n\t# SCISSORS decapitates LIZARD\n\t# LIZARD eats PAPER\n\t# PAPER disproves SPOCK\n\t"
       "# SPOCK vaporizes ROCK\n\t# ROCK crushes SCISSORS  ")
 print("Press the keys corrensponding to you choices :\n\t* Rock=r\n\t* Paper=p\n\t* Scissors=x\n\t"
