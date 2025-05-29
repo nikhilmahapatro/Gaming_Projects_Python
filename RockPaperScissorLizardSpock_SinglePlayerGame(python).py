@@ -1,6 +1,6 @@
 print("Anecdotal evidence suggests that in a game of Rock_Paper_Scissors players familiar with each other will tie"
       " 75-80% of the time due to the limited number of outcomes.\n"
-      "I suggest Rock_Paper_Scissors_Lizard_Spock. (Invented by SHELDON COOPER)\nIt's very simple\nRULE:\n\t"
+      "I suggest Rock_Paper_Scissors_Lizard_Spock. (Invented by DR. SHELDON LEE COOPER)\nIt's very simple\nRULE:\n\t"
       "# SCISSORS cuts PAPER\n\t# PAPER covers ROCK\n\t# ROCK crushes LIZARD\n\t# LIZARD poisons SPOCK\n\t"
       "# SPOCK smashes SCISSORS\n\t# SCISSORS decapitates LIZARD\n\t# LIZARD eats PAPER\n\t# PAPER disproves SPOCK\n\t"
       "# SPOCK vaporizes ROCK\n\t# ROCK crushes SCISSORS  ")
@@ -54,7 +54,7 @@ elif RandNum==4:
 elif RandNum==5:
     Computer='s'
 
-Player=input("Player   --> Rock(r) Paper(p) Scissors(x) Lizard(l) Spock(s)? --->")
+Player=input("Player   --> Rock(r) Paper(p) Scissors(x) Lizard(l) Spock(s)? ---> ")
                                               # The brackets mean Rock=r , Paper=p , Scissor=x , Lizard=l , Spock=s.
 
 Game=winner(Computer,Player)
@@ -63,7 +63,7 @@ if Game==None:
     if Player=='r' or Player=='p' or Player=='x' or Player=='l' or Player=='s':
         print("Its a TIE.")
     else:
-        print("Error Input.")
+        print("Invalid Input.")
 
 elif Game:
     print("Woooohhhhooooo , YOU CHAMP!!\nLet's do it again. ")
