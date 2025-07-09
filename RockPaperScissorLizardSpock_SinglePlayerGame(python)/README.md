@@ -1,44 +1,30 @@
-# 🖐 Rock Paper Scissors Lizard Spock – Single Player Game
+#  RockPaperScissorLizardSpock – Python Game
 
-This is a fun and interactive **single-player Python game** based on the expanded version of Rock-Paper-Scissors, popularized by *The Big Bang Theory*. The game adds two more gestures — **Lizard** and **Spock** — resulting in more complex interactions and exciting gameplay!
+This repository contains a simple and fun single-player game based on the extended version of Rock-Paper-Scissors, popularized by *The Big Bang Theory*. The game is built using Python and runs in the terminal. It’s a great beginner project to understand conditional logic, randomness, and user input handling.
 
-## 🧠 Game Rules
+---
 
-Each gesture beats two other gestures:
+##  Project Highlights
 
-- **Scissors cuts Paper**
-- **Paper covers Rock**
-- **Rock crushes Lizard**
-- **Lizard poisons Spock**
-- **Spock smashes Scissors**
-- **Scissors decapitates Lizard**
-- **Lizard eats Paper**
-- **Paper disproves Spock**
-- **Spock vaporizes Rock**
-- **Rock crushes Scissors**
+- Implements the full logic of **Rock-Paper-Scissors-Lizard-Spock**
+- Uses **randomization** for the computer’s moves
+- Tracks wins, losses, and ties in a game loop
+- Validates user input for a smoother CLI experience
 
-## 🎮 How It Works
+---
 
-- You play against the computer (which chooses randomly).
-- Input your choice (Rock, Paper, Scissors, Lizard, or Spock).
-- The program determines the winner and displays the result.
-- Score is updated after each round.
+##  Ideal For Learners Exploring:
 
-## 🛠️ Features
+- Python basics: `if/else`, loops, functions, dictionaries
+- Interactive CLI game development
+- Handling complex conditional rules
+- Writing clean and modular Python code
 
-- Clean and simple terminal interface
-- Play unlimited rounds
-- Clear rule logic using dictionaries or conditionals
-- Score tracking between user and computer
-- Input validation
+---
 
-## 🚀 Getting Started
+##  How to Run
 
-### Prerequisites
-
-- Python 3.x installed on your system
-
-### Run the Game
+Make sure you have Python 3 installed. Then:
 
 ```bash
 python RockPaperScissorLizardSpock_SinglePlayerGame(python).py
