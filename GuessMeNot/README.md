@@ -1,37 +1,18 @@
-# 🎯 Guess Me Not – Python Number Guessing Game (With a Twist)
+# GuessMeNot
 
-**Guess Me Not** is a clever take on the classic number guessing game — with a twist! Instead of just guessing the computer's number, you're up against **mind tricks and logic**. It's a fun, terminal-based game built in Python for beginners to learn control flow, randomness, and user interaction.
+This repository features a twist on the classic number guessing game, written in Python for the terminal. The game challenges the player to guess a randomly selected number, while occasionally offering misleading hints to increase the difficulty and fun.
 
----
+In this project, we:
 
-## 🕹️ Game Objective
+- Generate a random target number using Python’s `random` module
+- Continuously prompt the user to guess the number until correct
+- Introduce occasional false hints to mislead or challenge the player
+- Track the number of attempts and display results after completion
+- Ensure valid input and smooth command-line interaction
 
-- The computer picks a **random number**.
-- You try to guess it — but beware: the computer may **mislead you** with its hints!
-- Each round reveals how close (or far) you are, but the feedback isn't always straightforward.
+This repo is ideal for those learning how to:
 
-> Think you're good at guessing? Try when the game starts playing **mind games** back!
-
----
-
-## 🛠️ Features
-
-- 🧠 Random number generation
-- 🔄 Unlimited guessing until correct (or rage quit 😅)
-- 🧩 Logical twist on traditional higher/lower hints
-- ✅ Input validation for clean UX
-- 📉 Score or attempt tracking (if added)
-
----
-
-## 🚀 Getting Started
-
-### Requirements
-
-- Python 3.x  
-- No third-party libraries — pure Python!
-
-### Run the Game
-
-```bash
-python GuessMeNot.py
+- Work with loops, conditionals, and randomization in Python
+- Build interactive text-based games in the terminal
+- Handle user input and basic input validation
+- Apply creative logic to enhance traditional programming exercises
