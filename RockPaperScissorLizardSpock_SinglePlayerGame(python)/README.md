@@ -1,30 +1,18 @@
-#  RockPaperScissorLizardSpock – Python Game
+# RockPaperScissorLizardSpock
 
-This repository contains a simple and fun single-player game based on the extended version of Rock-Paper-Scissors, popularized by *The Big Bang Theory*. The game is built using Python and runs in the terminal. It’s a great beginner project to understand conditional logic, randomness, and user input handling.
+This repository contains a terminal-based Python game based on the extended Rock-Paper-Scissors format, including Lizard and Spock. Inspired by The Big Bang Theory, this project serves as a fun way to apply core Python concepts while building a simple, interactive command-line game.
 
----
+In this project, we:
 
-##  Project Highlights
+- Implement the full logic of Rock-Paper-Scissors-Lizard-Spock using conditional rules
+- Use Python’s `random` module to simulate the computer’s move
+- Validate user input to ensure a smooth game experience
+- Track outcomes across multiple rounds of gameplay
+- Present results clearly in a terminal-based interface
 
-- Implements the full logic of **Rock-Paper-Scissors-Lizard-Spock**
-- Uses **randomization** for the computer’s moves
-- Tracks wins, losses, and ties in a game loop
-- Validates user input for a smoother CLI experience
+This repo is ideal for those learning how to:
 
----
-
-##  Ideal For Learners Exploring:
-
-- Python basics: `if/else`, loops, functions, dictionaries
-- Interactive CLI game development
-- Handling complex conditional rules
-- Writing clean and modular Python code
-
----
-
-##  How to Run
-
-Make sure you have Python 3 installed. Then:
-
-```bash
-python RockPaperScissorLizardSpock_SinglePlayerGame(python).py
+- Work with conditional logic and branching in Python
+- Build basic interactive applications in the terminal
+- Use randomness and user input effectively
+- Develop logic-heavy games with multiple winning combinations
